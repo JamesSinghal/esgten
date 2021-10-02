@@ -1,18 +1,7 @@
 <template>
-    <div>
-    <h1>I am the child view</h1>
-    <nav>
-      <ul>
-        <li>
-          <NuxtLink to="/parent/child">Child</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="../">Child 2</NuxtLink>
-        </li>
-      </ul>
-    </nav>
-    <NuxtChild/>
-  </div>
+    <button type="button" class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ...">
+      Hover me
+    </button>
 </template>
 <style scoped>
 ul {

@@ -2,7 +2,7 @@
   <div class="fullscreen">
     <link rel="stylesheet" href="styles.css">
     <div class="grad-bg absolute opacity-30">
-      <div class="grad-bg bg-gradient-to-br from-grad_gray to-grad_blue"></div>
+      <div class="bg-gradient-to-br from-grad_gray to-grad_blue"></div>
     </div>
     <sideBar></sideBar>
     <div id="app">
@@ -40,9 +40,14 @@
 }
 
 .grad-bg {
-  text-align: right;
-  width: 88vw;
+  margin-left: 12vw;
+  width: 100%;
   height: 100vh;
+}
+
+.grad-bg > div {
+  width: 100%;
+  height: 100%;
 }
 
 #app {
