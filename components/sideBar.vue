@@ -70,7 +70,7 @@ export default {
     font-weight: 600;
 }
 
-.flex-col > li > div > Nuxtlink {
+.flex-col > li > div > a {
     padding-right: 1.5vw;
     padding-top: .8vh;
     padding-bottom: .8vh;
