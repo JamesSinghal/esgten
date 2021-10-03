@@ -74,8 +74,8 @@ export default {
 
 .flex-col > li > div > a {
     padding-right: 1.5vw;
-    padding-top: .8vh;
-    padding-bottom: .8vh;
+    padding-top: .6vh;
+    padding-bottom: .9vh;
     width: 12vw;
     height: 100%;
     opacity: 100 !important;
