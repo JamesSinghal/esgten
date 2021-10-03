@@ -63,8 +63,6 @@ export default {
 
 .flex-col > li > div {
     width: 12vw;
-    padding-top: .4vh;
-    padding-bottom: .4vh;
     padding-left: auto;
     padding-right: auto;
     font-size: 18px;
@@ -75,7 +73,7 @@ export default {
 .flex-col > li > div > a {
     padding-right: 1.5vw;
     padding-top: .6vh;
-    padding-bottom: .9vh;
+    padding-bottom: 1.2vh;
     width: 12vw;
     height: 100%;
     opacity: 100 !important;
