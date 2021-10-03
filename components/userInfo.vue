@@ -19,7 +19,7 @@ export default {
 </script>
 
 <style>
-
+/* 
 #settings {
     padding-right: 1.5vw;
     text-align: right;
@@ -68,5 +68,5 @@ export default {
 #side-list {
     height: 60vh;
     margin-top: 25vh;
-}
+} */
 </style>
