@@ -12,10 +12,12 @@ export default {
 
 <style>
 .grad-bg {
+  top: 0;
   position: fixed;
+  position: 0, 0;
   margin-left: 12vw;
-  width: 88vw;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   z-index: -10;
 }
 

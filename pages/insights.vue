@@ -5,7 +5,7 @@
     <sideBar></sideBar>
     <div id="app">
       <div id="ports-summ">
-
+          test
       </div>
     </div>
   </div>
@@ -32,10 +32,10 @@
 
 #ports-summ {
   margin: 5vw;
+  margin-top: 0vw;
   border-radius: 0px;
   background: #e0e0e0;
-  box-shadow: inset -5px -5px 10px #5a5a5a,
-              inset 5px 5px 10px #ffffff;
+  box-shadow: 0px 0px 10px 5 #b9b9b9;
 }
 
 .fullscreen {

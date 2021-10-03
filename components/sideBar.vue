@@ -44,6 +44,7 @@ export default {
 }
 
 .side-bar {
+    top: 0;
     width: 12vw;
     height: 100vh;
     position: fixed;
