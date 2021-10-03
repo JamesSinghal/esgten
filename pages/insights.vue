@@ -49,8 +49,8 @@
   height: 30vh;
   width: 50vw;
   border-radius: 5px;
-  background: #FFFFFF;
-  box-shadow: 0px 0px 10px 2px #b9b9b9;
+  background: #ffffff;
+  box-shadow: 4px 0px 7px -3px #b9b9b9;
 }
 
 .fullscreen {
