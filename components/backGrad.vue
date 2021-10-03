@@ -1,5 +1,5 @@
 <template>
-    <div class="grad-bg absolute">
+    <div class="grad-bg">
       <div class="bg-gradient-to-br from-grad_gray to-grad_blue"></div>
     </div>
 </template>

@@ -4,7 +4,9 @@
     <backGrad></backGrad>
     <sideBar></sideBar>
     <div id="app">
-      <h1 class="hover:italic">Insights</h1>
+      <div id="ports-summ">
+
+      </div>
     </div>
   </div>
 </template>
@@ -28,6 +30,13 @@
 @tailwind components;
 @tailwind utilities;
 
+#ports-summ {
+  margin: 5vw;
+  border-radius: 0px;
+  background: #e0e0e0;
+  box-shadow: inset -5px -5px 10px #5a5a5a,
+              inset 5px 5px 10px #ffffff;
+}
 
 .fullscreen {
   height: 100vh;
