@@ -19,12 +19,6 @@ export default {
 </script>
 
 <style>
-#insights {
-    text-decoration: underline;
-    text-decoration-color: #41B749;
-    text-decoration-skip-ink: none;
-    text-decoration-thickness: 3px;
-}
 
 #settings {
     padding-right: 1.5vw;
