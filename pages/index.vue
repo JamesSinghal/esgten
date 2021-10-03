@@ -1,7 +1,7 @@
 <template>
   <div class="fullscreen">
     <link rel="stylesheet" href="styles.css">
-    <div class="grad-bg absolute opacity-30">
+    <div class="grad-bg absolute">
       <div class="bg-gradient-to-br from-grad_gray to-grad_blue"></div>
     </div>
     <sideBar></sideBar>
