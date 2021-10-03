@@ -11,7 +11,7 @@
             <li><div id="deliverables" class="bg-gradient-to-r from-white to-white hover:from-side_left hover:to-side_right"><router-link to="about">Deliverables</router-link></div></li>
             <li><div id="exports" class="bg-gradient-to-r from-white to-white hover:from-side_left hover:to-side_right"><router-link to="about">Export/API</router-link></div></li>
         </ul>
-        <div id="settings" class="">
+        <div id="settings" class="align-bottom">
             <router-link to="about">Settings</router-link>
         </div>
         </nav>
@@ -25,9 +25,16 @@ export default {
 </script>
 
 <style>
+#insights {
+    text-decoration: underline;
+    text-decoration-color: #41B749;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: 3px;
+}
+
 #settings {
-    margin-top: auto;
-    margin-bottom: 5vw;
+    padding-right: 1.5vw;
+    text-align: right;
 }
 
 .side-bar {
@@ -46,7 +53,7 @@ export default {
 }
 
 .flex-col > li > div {
-    width: 100%;
+    width: 12vw;
     padding-top: .4vh;
     padding-bottom: .4vh;
     padding-left: auto;
@@ -60,7 +67,7 @@ export default {
     padding-right: 1.5vw;
     padding-top: .8vh;
     padding-bottom: .8vh;
-    width: 100%;
+    width: 12vw;
     height: 100%;
 }
 
