@@ -41,7 +41,7 @@ export default {
     width: 12vw;
     height: 100vh;
     position: fixed;
-    box-shadow: 5px 0px 27px -3px #B7B7B7;
+    box-shadow: 5px 0px 10px -3px #B7B7B7;
 }
 
 #logo {

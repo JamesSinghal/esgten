@@ -4,8 +4,8 @@ module.exports = {
      theme: {
        extend: {
            colors: {
-            'grad_gray': '#E9EDE8',
-            'grad_blue': '#DBEAEA', 
+            'grad_gray': '#d6e3d3',
+            'grad_blue': '#cae0e0', 
             'side_left': '#EFFFD8',
             'side_right': '#92E126'
            }
