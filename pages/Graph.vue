@@ -53,12 +53,14 @@ export default {
         responsive: true,
         legend: {
           display: false,
+          fontSize: 3,
         },
         title: {
           display: true,
           text: "Google analytics data",
-          fontSize: 24,
-          fontColor: "#6b7280",
+          fontSize: 50,
+            // fontColor: "#6b7280",
+          fontColor: "#f03800",
         },
         tooltips: {
           backgroundColor: "#17BF62",
@@ -68,6 +70,9 @@ export default {
             {
               gridLines: {
                 display: true,
+              },
+              ticks: {
+                fontSize: 10,
               },
             },
           ],
@@ -109,13 +114,15 @@ export default {
   padding: 10px;
   margin: 10px;
   width: 25vw;
-  height: 25vh;
+  height: auto;
 }
 
 #wrapperGraph{
   border-width: 20px;
   padding: 10px;
   margin: 10px;
+  width: 30vw;
+  height: auto;
 }
 
 #graphLine{
@@ -132,16 +139,14 @@ export default {
 }
 
 /* BarGraph main */
-#graphBar{
+/* #graphBar{
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: top;
   color: #2c3e50;
-  margin-top: 12vh;
-  margin-right: 54vw;
-  width: 30%;
-  height: 30%;
-}
+  width: 100%;
+  height: 100%;
+} */
 
 </style>

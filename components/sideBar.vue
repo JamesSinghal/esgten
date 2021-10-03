@@ -48,6 +48,7 @@ export default {
     height: 100vh;
     position: fixed;
     box-shadow: 4px 0px 7px -3px #b9b9b9;
+    background-color:white;
 }
 
 #logo {

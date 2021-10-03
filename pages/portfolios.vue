@@ -1,23 +1,29 @@
 <template>
   <div class="fullscreen">
     <link rel="stylesheet" href="styles.css">
-    <div class="grad-bg absolute">
-      <div class="bg-gradient-to-br from-grad_gray to-grad_blue"></div>
-    </div>
+    <backGrad></backGrad>
     <sideBar></sideBar>
     <div id="app">
-      <h1 class="hover:italic">Portfolios</h1>
+      <h1 class="hover:italic">Portfolios
+        Portfolios
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        Portfolios
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        Portfolios
+      </h1>
     </div>
   </div>
 </template>
 
 <script>
-  import sideBar from "../components/sideBar.vue"
+import sideBar from '../components/sideBar.vue'
+import backGrad from "../components/backGrad.vue"
 
   export default {
     name: 'App',
     components: {
       sideBar,
+      backGrad,
     },
   }
 </script>
@@ -31,17 +37,6 @@
 .fullscreen {
   height: 100vh;
   width: 100vw;
-}
-
-.grad-bg {
-  margin-left: 12vw;
-  width: 88vw;
-  height: 100vh;
-}
-
-.grad-bg > div {
-  width: 100%;
-  height: 100%;
 }
 
 #app {
