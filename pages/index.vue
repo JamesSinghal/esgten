@@ -35,7 +35,7 @@
 
 .grad-bg {
   margin-left: 12vw;
-  width: 100%;
+  width: 88vw;
   height: 100vh;
 }
 
@@ -45,7 +45,7 @@
 }
 
 #app {
-  width: 87vw;
+  width: 86vw;
   margin-left: 14vw;
 }
 </style>
