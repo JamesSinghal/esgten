@@ -47,7 +47,7 @@
 
 #ports-summ {
   height: 30vh;
-  width: 40vw;
+  width: 15vw;
 }
 
 .panel {
