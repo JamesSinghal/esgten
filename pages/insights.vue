@@ -5,7 +5,15 @@
     <sideBar></sideBar>
     <div id="app">
       <div id="ports-summ">
-          test
+        <ul id="ports-list">
+          <li>test</li>
+          <li><hr></li>
+          <li>test1</li>
+          <li><hr></li>
+          <li>test2</li>
+          <li><hr></li>
+          <li>test3</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -30,12 +38,19 @@
 @tailwind components;
 @tailwind utilities;
 
+#ports-list {
+  height: 30vh;
+  width: 50vw;
+  
+}
+
 #ports-summ {
-  margin: 5vw;
-  margin-top: 0vw;
-  border-radius: 0px;
-  background: #e0e0e0;
-  box-shadow: 0px 0px 10px 5 #b9b9b9;
+  margin: 10vh;
+  height: 30vh;
+  width: 50vw;
+  border-radius: 5px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px 2px #b9b9b9;
 }
 
 .fullscreen {
@@ -44,7 +59,7 @@
 }
 
 #app {
-  width: 86vw;
-  margin-left: 14vw;
+  width: 100vw;
+  margin-left: 12vw;
 }
 </style>

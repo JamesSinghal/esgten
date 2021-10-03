@@ -40,7 +40,7 @@ import backGrad from "../components/backGrad.vue"
 }
 
 #app {
-  width: 86vw;
-  margin-left: 14vw;
+  width: 100vw;
+  margin-left: 12vw;
 }
 </style>
