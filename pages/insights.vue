@@ -3,21 +3,12 @@
     <link rel="stylesheet" href="styles.css">
     <backGrad></backGrad>
     <sideBar></sideBar>
-    <div id="app">
-      <div id="ports-summ" class="panel">
-        <ul id="ports-list" class="flex flex-col panel">
-          <div>1</div>
-          <div><hr></div>
-          <div>2</div>
-          <div><hr></div>
-          <div>3</div>
-          <div><hr></div>
-          <div>4</div>
-        </ul>
-      </div>
-      <div id="donut-chart">
-      </div>
-    </div>
+    <div class="grid2x2">
+      <div class="box box1"><div>one</div></div>
+      <div class="box box2"><div>two</div></div>
+      <div class="box box3"><div>three</div></div>
+      <div class="box box4"><div>four</div></div>
+  </div>
   </div>
 </template>
 
@@ -50,17 +41,51 @@
   width: 15vw;
 }
 
-.panel {
-  margin: 10vh;
-  height: 30vh;
-  width: 50vw;
-  border-radius: 5px;
-  background: #FFFFFF;
-  box-shadow: 0px 0px 10px 2px #b9b9b9;
+.grid2x2 {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
-#donut-chart {
+.grid2x2 > div {
+  display: flex; 
+  flex-basis: calc(50% - 40px);  
+  justify-content: center;
+  flex-direction: column;
+}
 
+.grid2x2 > div > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+    border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 4px 0px 7px -3px #b9b9b9;
+}
+
+.box { margin: 2vh; }
+
+#panel {
+  margin: 3vh;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 4px 0px 7px -3px #b9b9b9;
+}
+
+#timetrend {
+  height: 30vh;
+  width: 30vw;
+}
+
+#treemap {
+  height: 30vh;
+  width: 30vw;
+}
+
+#distribution {
+  height: 30vh;
+  width: 30vw;
 }
 
 .fullscreen {
