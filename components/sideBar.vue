@@ -70,6 +70,7 @@ export default {
     padding-bottom: .8vh;
     width: 12vw;
     height: 100%;
+    opacity: 100 !important;
 }
 
 .flex-col > li{

@@ -1,7 +1,15 @@
 <template>
-    <div class="profileMenu">
-        
-    </div>
+    <ul class="profileMenu">
+       <li>
+           <div class="profile"> 
+               <ul class="menu">
+                    <li><a href="#">Edit</a></li>
+                    <li><a href="#">Change Password</a></li>
+                    <li><a href="#">Log out</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
 </template>
 
 <script>
