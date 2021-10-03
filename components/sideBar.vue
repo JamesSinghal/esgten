@@ -10,8 +10,8 @@
             <li class="bg-gradient-to-r from-side_left to-side_right"><div><router-link to="/">Portfolios</router-link></div></li>
             <li class="hover:bg-gradient-to-r from-side_left to-side_right"><div><router-link to="about">Deliverables</router-link></div></li>
             <li class="hover:bg-gradient-to-r from-side_left to-side_right"><div><router-link to="about">Export/API</router-link></div></li>
-            <button id="butt" type="button" class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ...">
-                Hover me
+            <button id="butt" type="button" class="hover:from-pink-500 hover:to-yellow-500 ...">
+                <div class="bg-gradient-to-r from-green-400 to-blue-500">hover me</div>
             </button>
         </ul>
         </nav>
@@ -26,7 +26,7 @@ export default {
 
 <style>
 #butt {
-    position: 20 30;
+    position: 20px 30px;
 }
 
 .side-bar {
