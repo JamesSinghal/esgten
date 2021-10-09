@@ -1,4 +1,5 @@
-# test
+# ESG10
+Project repository for HackDFW 2021.
 
 ## Build Setup
 
